@@ -20,15 +20,18 @@ month_dict = {
       11 : 'ноябрь',
       12 : 'декабрь'
       }
+
+month = int(input('Введите номер месяца:'))
+
 def quarter_of(month):
-  if month == 1 or month == 2 or month == 3:
+  if month in [1, 2, 3]:
     return f'{month_dict.get(month)} - является частью первого квартала.'
-  elif month == 4 or month == 5 or month == 6:
+  elif month in [4, 5, 6]:
      return f'{month_dict.get(month)} - является частью второго квартала.'
-  elif month == 7 or month == 8 or month == 9:
+  elif month in [7, 8, 9]:
      return f'{month_dict.get(month)} - является частью третьего квартала.'
-  elif month == 10 or month == 11 or month == 12:
+  elif month in [10, 11, 12]:
      return f'{month_dict.get(month)} - является частью четвертого квартала.' 
 
 for _ in [month_dict]:
-  print(quarter_of(11))
+  print(quarter_of(month))

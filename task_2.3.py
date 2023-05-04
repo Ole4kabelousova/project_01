@@ -20,8 +20,10 @@ number_dict = {
       9 : 'девять'
       }
 
+number = int(input('Введите цифру:'))
+
 def switch_it_up(number):
    return f'{number_dict.get(number)}'
   
 for _ in [number_dict]:
-  print(switch_it_up(5))
+  print(switch_it_up(number))
