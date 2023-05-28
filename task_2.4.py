@@ -65,5 +65,50 @@ remove_last_em(s)
 # remove("Hi! Hi!! Hi!") === "Hi!!"
 # remove("Hi! !Hi! Hi!") === "!Hi!"
 
+s = ("Hi!")
 def remove_word_with_one_em(s):
-    pass
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
+
+
+s = ("Hi! Hi!")
+def remove_word_with_one_em(s):
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
+
+
+s = ("Hi! Hi! Hi!")
+def remove_word_with_one_em(s):
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
+
+
+s = ("Hi Hi! Hi!")
+def remove_word_with_one_em(s):
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
+
+
+s = ("Hi! !Hi Hi!")
+def remove_word_with_one_em(s):
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
+
+
+s = ("Hi! Hi!! Hi!")
+def remove_word_with_one_em(s):
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
+
+
+s = ("Hi! !Hi! Hi!")
+def remove_word_with_one_em(s):
+  print(f' '.join(w for w in s.split() if w.count('!') != 1))
+  
+remove_word_with_one_em(s)  
